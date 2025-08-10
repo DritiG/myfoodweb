@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Food Delivery</title>
+    <style>
+        /* Basic CSS for styling */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347; /* Tomato color */
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .food-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .food-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .food-item-text h3 {
+            margin: 0 0 10px 0;
+            color: #ff6347;
+        }
+        .food-item-text p {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .cta-button:hover {
+            background-color: #e5533d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FlavorStack: Your Next Meal, Delivered</h1>
+        <p>Order delicious food from your favorite local restaurants!</p>
+    </header>
+
+    <div class="container">
+        <h2>Today's Specials</h2>
+
+        <div class="food-item">
+            <img src="https://via.placeholder.com/150/ff6347/ffffff?text=Burger" alt="Delicious Burger">
+            <div class="food-item-text">
+                <h3>The Classic Burger</h3>
+                <p>A juicy beef patty with fresh lettuce, tomato, and our secret sauce on a toasted bun.</p>
+                <p><strong>Price: $12.99</strong></p>
+                <a href="#" class="cta-button">Order Now</a>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://via.placeholder.com/150/ff6347/ffffff?text=Pizza" alt="Pepperoni Pizza">
+            <div class="food-item-text">
+                <h3>Supreme Pepperoni Pizza</h3>
+                <p>Crispy crust topped with zesty tomato sauce, gooey mozzarella, and premium pepperoni.</p>
+                <p><strong>Price: $18.50</strong></p>
+                <a href="#" class="cta-button">Order Now</a>
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="https://via.placeholder.com/150/ff6347/ffffff?text=Salad" alt="Fresh Salad">
+            <div class="food-item-text">
+                <h3>Garden Fresh Salad</h3>
+                <p>Mixed greens, cherry tomatoes, cucumbers, and a light vinaigrette dressing.</p>
+                <p><strong>Price: $9.99</strong></p>
+                <a href="#" class="cta-button">Order Now</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 FlavorStack. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
